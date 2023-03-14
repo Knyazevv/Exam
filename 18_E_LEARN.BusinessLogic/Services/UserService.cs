@@ -94,7 +94,8 @@ namespace _18_E_LEARN.BusinessLogic.Services
             List<AllUsersVM> mappedUsers = users.Select(u => _mapper.Map<AppUser, AllUsersVM>(u)).ToList();
             for (int i = 0; i < users.Count; i++)
             {
-                mappedUsers[i].Role = (await _userManager.GetRolesAsync(users[i])).FirstOrDefault();
+                mappedUsers[i].IsBaned = await _userManager.IsLockedOutAsync(users[i]);
+                mappedUsers[i].Role = (await _userManager.GetRolesAsync(users[i])).First();
             }
 
             return new ServiceResponse
@@ -312,6 +313,8 @@ namespace _18_E_LEARN.BusinessLogic.Services
             }
 
             var mappedUser = _mapper.Map<AppUser, EditUserVM>(user);
+            mappedUser.IsBaned = await _userManager.IsLockedOutAsync(user);
+
             return new ServiceResponse
             {
                 Success = true,
@@ -335,7 +338,7 @@ namespace _18_E_LEARN.BusinessLogic.Services
             user.Name = model.Name;
             user.Surname = model.Surname;
             user.PhoneNumber = model.PhoneNumber;
-            if(user.Email != model.Email)
+            if (user.Email != model.Email)
             {
                 user.Email = model.Email;
                 user.UserName = model.Email;
@@ -350,6 +353,91 @@ namespace _18_E_LEARN.BusinessLogic.Services
                 {
                     Success = true,
                     Message = "User successfully updated."
+                };
+            }
+
+            List<IdentityError> errorList = result.Errors.ToList();
+            string errors = "";
+
+            foreach (var error in errorList)
+            {
+                errors = errors + error.Description.ToString();
+            }
+
+            return new ServiceResponse
+            {
+                Success = false,
+                Message = errors
+            };
+        }
+        public async Task<ServiceResponse> BanUserAsync(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+            if (user == null)
+            {
+                return new ServiceResponse
+                {
+                    Success = false,
+                    Message = "User not found."
+                };
+            }
+
+            IdentityResult? res;
+            string message;
+            if (await _userManager.IsLockedOutAsync(user))
+            {
+                res = await _userManager.SetLockoutEndDateAsync(user, DateTime.UtcNow);
+                message = "User successfully unbaned";
+            }
+            else
+            {
+                res = await _userManager.SetLockoutEndDateAsync(user, DateTime.UtcNow.AddYears(1));
+                message = "User successfully baned";
+            }
+
+            if (res.Succeeded)
+            {
+                return new ServiceResponse
+                {
+                    Success = true,
+                    Message = message
+                };
+            }
+
+            List<IdentityError> errorList = res.Errors.ToList();
+            string errors = "";
+
+            foreach (var error in errorList)
+            {
+                errors = errors + error.Description.ToString();
+            }
+
+            return new ServiceResponse
+            {
+                Success = false,
+                Message = errors
+            };
+        }
+
+        public async Task<ServiceResponse> DeleteUserAsync(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+            if (user == null)
+            {
+                return new ServiceResponse
+                {
+                    Success = false,
+                    Message = "User not found."
+                };
+            }
+
+            var result = await _userManager.DeleteAsync(user);
+            if (result.Succeeded)
+            {
+                return new ServiceResponse
+                {
+                    Success = true,
+                    Message = "User successfully deleted."
                 };
             }
 

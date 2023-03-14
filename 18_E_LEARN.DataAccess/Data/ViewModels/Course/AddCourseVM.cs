@@ -13,7 +13,8 @@ namespace _18_E_LEARN.DataAccess.Data.ViewModels.Course
         public string Description { get; set; } = string.Empty;
         public decimal Price { get; set; }
         public string Image { get; set; } = string.Empty; 
-        public int CategoryId { get; set; }
+        public int? CategoryId { get; set; }
+        public int? CategoryName { get; set; }
         public IFormFileCollection Files { get; set; }
     }
 }

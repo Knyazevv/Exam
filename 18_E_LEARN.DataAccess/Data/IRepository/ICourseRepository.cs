@@ -11,5 +11,9 @@ namespace _18_E_LEARN.DataAccess.Data.IRepository
     {
         Task<IEnumerable<Course>> GetAllAsync();
         Task Create(Course model);
+        Task Update(Course model);
+        Task Delete(Course course);
+        Task<Course?> GetByName(string name);
+        Task<Course?> GetByIdAsync(int id);
     }
 }

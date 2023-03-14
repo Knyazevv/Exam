@@ -12,6 +12,9 @@ namespace _18_E_LEARN.Web.Infrastructure.AutoMapper
 
             // Course mapping
             services.AddAutoMapper(typeof(AutoMapperCourseProfile));
+
+            // Category mapping
+            services.AddAutoMapper(typeof(AutoMapperCategoryProfile));
         }
     }
 }

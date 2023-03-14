@@ -12,11 +12,8 @@ namespace _18_E_LEARN.DataAccess.Data.IRepository
         Task<List<Category>> GetAllAsync();
         Task<Category> GetByIdAsync(int id);
         Task<Category> GetByNameAsync(string name);
+        Task Create(Category model);
         string Update(Category category);
-        public Category GetById(int id);
-        public void DeleteCategory(int id);
-        void AddCategory(Category category);
-
-
+        Task Delete(Category category);
     }
 }

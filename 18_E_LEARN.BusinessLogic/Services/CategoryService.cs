@@ -1,5 +1,8 @@
 ﻿using _18_E_LEARN.DataAccess.Data.IRepository;
 using _18_E_LEARN.DataAccess.Data.Models.Categories;
+using _18_E_LEARN.DataAccess.Data.Models.Courses;
+using _18_E_LEARN.DataAccess.Data.ViewModels.Course;
+using AutoMapper;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,10 +13,12 @@ namespace _18_E_LEARN.BusinessLogic.Services
 {
     public class CategoryService
     {
+        private readonly IMapper _mapper;
         private readonly ICategoryRepository _categoryRepository;
-        public CategoryService(ICategoryRepository categoryRepository)
+        public CategoryService(IMapper mapper, ICategoryRepository categoryRepository)
         {
             _categoryRepository = categoryRepository;
+            _mapper = mapper;
         }
 
         public async Task<ServiceResponse> GetAllAsync()
@@ -46,6 +51,27 @@ namespace _18_E_LEARN.BusinessLogic.Services
                 Payload = result
             };
         }
+        public async Task<ServiceResponse> Create(AddCategoryVM model)
+        {
+            var category = await _categoryRepository.GetByNameAsync(model.Name);
+            if (category != null)
+            {
+                return new ServiceResponse
+                {
+                    Success = false,
+                    Message = "Category exists.",
+                };
+            }
+            var mappedCategory = _mapper.Map<AddCategoryVM, Category>(model);
+            await _categoryRepository.Create(mappedCategory);
+
+            return new ServiceResponse
+            {
+                Success = true,
+                Message = "Category created.",
+            };
+
+        }
 
         public async Task<ServiceResponse> Update(Category model)
         {
@@ -68,42 +94,24 @@ namespace _18_E_LEARN.BusinessLogic.Services
 
         }
 
-
-        public async Task<ServiceResponse> DeleteIdAsync(int id)
+        public async Task<ServiceResponse> Delete(int id)
         {
-            var category = _categoryRepository.GetById(id);
+            var category = await _categoryRepository.GetByIdAsync(id);
             if (category == null)
             {
                 return new ServiceResponse
                 {
                     Success = false,
-                    Message = "Nothing was found",
+                    Message = "Category not exists.",
                 };
             }
-            _categoryRepository.DeleteCategory(id);
+            await _categoryRepository.Delete(category);
+
             return new ServiceResponse
             {
                 Success = true,
-                Message = "A category was deleted",
-                Payload = category
+                Message = "Category successfully deleted.",
             };
         }
-        public async Task<ServiceResponse> AddCategoryAsync(Category category)
-        {
-            _categoryRepository.AddCategory(category);
-            return new ServiceResponse
-            {
-                Success = true,
-                Message = "All categories were loaded"
-            };
-        }
-
-
-
-
-
-
-
-
     }
 }

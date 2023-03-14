@@ -3,14 +3,13 @@ using _18_E_LEARN.DataAccess.Data.Models.Categories;
 using _18_E_LEARN.DataAccess.Data.Models.User;
 using _18_E_LEARN.DataAccess.Data.ViewModels.Course;
 using _18_E_LEARN.DataAccess.Data.ViewModels.User;
-using _18_E_LEARN.DataAccess.Validation.Categories;
 using _18_E_LEARN.DataAccess.Validation.Course;
 using _18_E_LEARN.DataAccess.Validation.User;
-using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 using System.Security.Claims;
 
 namespace _18_E_LEARN.Web.Controllers
@@ -19,24 +18,18 @@ namespace _18_E_LEARN.Web.Controllers
     public class AdminController : Controller
     {
         private readonly UserService _userService;
-        private readonly CategoryService _categoryService;
-        private readonly CourseService _courseService;
-        private readonly IMapper _mapper;
 
-        public AdminController(CourseService courseService, UserService userService, CategoryService categoryService, IMapper mapper)
+        public AdminController(UserService userService)
         {
             _userService = userService;
-            _categoryService = categoryService;
-            _courseService = courseService;
-            _mapper = mapper;
         }
 
         public IActionResult Index()
         {
             return View();
         }
-
-        public  async Task<IActionResult> Users()
+        #region Users
+        public async Task<IActionResult> Users()
         {
             var result = await _userService.GetAllUsers();
             if (result.Success)
@@ -76,6 +69,7 @@ namespace _18_E_LEARN.Web.Controllers
             }
             return View();
         }
+
         public async Task<IActionResult> Profile()
         {
             var userId = HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
@@ -129,23 +123,6 @@ namespace _18_E_LEARN.Web.Controllers
         }
 
         [AllowAnonymous]
-        public async Task<IActionResult> ConfirmEmail(string userId, string token)
-        {
-            var result = await _userService.ConfirmEmailAsync(userId, token);
-            if (result.Success)
-            {
-                return RedirectToAction("ConfirmEmailPage", "Admin");
-            }
-            return View();
-        }
-
-        [AllowAnonymous]
-        public IActionResult ConfirmEmailPage()
-        {
-            return View();
-        }
-
-        [AllowAnonymous]
         [HttpPost]
         public async Task<IActionResult> SignUp(RegisterUserVM model)
         {
@@ -190,6 +167,10 @@ namespace _18_E_LEARN.Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> EditUser(EditUserVM model)
         {
+            if (!User.IsInRole("Administrators"))
+            {
+                return RedirectToAction("Users", "Admin");
+            }
             var validator = new EditUserValidation();
             var validationResult = await validator.ValidateAsync(model);
             if (validationResult.IsValid)
@@ -206,116 +187,51 @@ namespace _18_E_LEARN.Web.Controllers
             return View(model);
         }
 
-        public async Task<IActionResult> GetCategories()
+        public async Task<IActionResult> BanUser(string id)
         {
-            var result = await _categoryService.GetAllAsync();
-            return View(result.Payload);
-        }
-
-        public async Task<IActionResult> EditCategory(int Id)
-        {
-            var result = await _categoryService.GetByIdAsync(Id);
-            return View(result.Payload);
-        }
-
-
-
-        [HttpPost]
-        public async Task<IActionResult> EditCategory(Category model)
-        {
-            var result = await _categoryService.Update(model);
+            var result = await _userService.BanUserAsync(id);
             if (result.Success)
             {
-                return RedirectToAction(nameof(GetCategories));
+                return RedirectToAction("Users", "Admin");
             }
-            ViewBag.Error = result.Message;
-            return View();
+            return RedirectToAction("Users", "Admin");
         }
 
-        public async Task<IActionResult> GetCourses()
+        public async Task<IActionResult> DeleteUser(string id)
         {
-            var result = await _courseService.GetAllAsync();
-            return View(result.Payload);
-        }
-
-        public async Task<IActionResult> AddCourse()
-        {
-            await LoadCategories();
-            return View();
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> AddCourse(AddCourseVM model)
-        {
-            var validator = new AddCourseValidation();
-            var validationresult = await validator.ValidateAsync(model);
-            if (validationresult.IsValid)
-            {
-                if(model.Files != null)
-                {
-                    model.Files = HttpContext.Request.Form.Files;
-                }
-
-                await _courseService.Create(model);
-                return RedirectToAction(nameof(GetCourses));
-            }
-            return View();
-        }
-
-        private async Task LoadCategories()
-        {
-            var result = await _categoryService.GetAllAsync();
-            ViewBag.CategoryList = new SelectList(
-                (System.Collections.IEnumerable)result.Payload,
-                nameof(Category.Id),
-                nameof(Category.Name)
-                );
-        }
-
-
-
-
-
-        [HttpPost]
-        public async Task<IActionResult> DeleteCategory(Category model)
-        {
-            _categoryService.DeleteIdAsync(model.Id);
-            return RedirectToAction("GetCategories", "Admin");
-
-        }
-        public async Task<IActionResult> AddCategory(int id)
-        {
-            var result = await _categoryService.GetByIdAsync(id);
+            var result = await _userService.DeleteUserAsync(id);
             if (result.Success)
             {
-                return View(result.Payload);
+                return RedirectToAction("Users", "Admin");
+            }
+            return RedirectToAction("Users", "Admin");
+        }
+        #endregion
+        #region Email
+        [AllowAnonymous]
+        public async Task<IActionResult> ConfirmEmail(string userId, string token)
+        {
+            var result = await _userService.ConfirmEmailAsync(userId, token);
+            if (result.Success)
+            {
+                return RedirectToAction("ConfirmEmailPage", "Admin");
             }
             return View();
         }
 
-
-
-
-
-
-
-
-        [HttpPost]
-        public async Task<IActionResult> AddCategory(Category model)
+        [AllowAnonymous]
+        public IActionResult ConfirmEmailPage()
         {
-            var validator = new EditCategoryValidation();
-            var validationResult = await validator.ValidateAsync(model);
-            if (validationResult.IsValid)
-            {
-                _categoryService.AddCategoryAsync(model);
-                return RedirectToAction("GetCategories", "Admin");
-            }
-            return View(model);
+            return View();
         }
+        #endregion
+        #region Categories
 
+        
+        #endregion
+        #region Courses
 
-
-
-
+        
+        #endregion
     }
 }

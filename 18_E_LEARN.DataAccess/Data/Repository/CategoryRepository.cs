@@ -1,6 +1,7 @@
 ﻿using _18_E_LEARN.DataAccess.Data.Context;
 using _18_E_LEARN.DataAccess.Data.IRepository;
 using _18_E_LEARN.DataAccess.Data.Models.Categories;
+using _18_E_LEARN.DataAccess.Data.Models.Courses;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System;
@@ -22,8 +23,6 @@ namespace _18_E_LEARN.DataAccess.Data.Repository
             }
         }
 
-
-
         public async Task<Category> GetByIdAsync(int id)
         {
             using (var _context = new AppDbContext())
@@ -41,6 +40,14 @@ namespace _18_E_LEARN.DataAccess.Data.Repository
                 return result;
             }
         }
+        public async Task Create(Category model)
+        {
+            using (var _context = new AppDbContext())
+            {
+                await _context.Categories.AddAsync(model);
+                await _context.SaveChangesAsync();
+            }
+        }
 
         public string Update(Category category)
         {
@@ -51,33 +58,19 @@ namespace _18_E_LEARN.DataAccess.Data.Repository
                 return result.State.ToString();
             }
         }
-
-
-        public Category GetById(int id)
+        public async Task Delete(Category category)
         {
-            using (var _context = new AppDbContext()) 
+            using (var _context = new AppDbContext())
             {
-                var category = _context.Categories.Find(id);
-                return category;
+                var courses = await _context.Courses.Where(c => c.CategoryId == category.Id).ToListAsync();
+                foreach (var c in courses)
+                {
+                    c.CategoryId = null;
+                }
+                _context.Courses.UpdateRange(courses);
+                _context.Categories.Remove(category);
+                await _context.SaveChangesAsync();
             }
         }
-        public void DeleteCategory(int id)
-        {
-            using (var _context = new AppDbContext()) 
-            {
-                _context.Categories.Remove(GetById(id));
-                _context.SaveChanges();
-            }
-        }
-        public void AddCategory(Category category)
-        {
-            using (var _context = new AppDbContext()) 
-            {
-                _context.Categories.Add(category);
-                _context.SaveChanges();
-            }
-        }
-
-
     }
 }

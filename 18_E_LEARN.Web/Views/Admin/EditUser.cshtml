@@ -35,6 +35,18 @@
                                 <button type="submit" class="btn bg-gradient-dark w-100 my-4 mb-2">Save</button>
                             </div>
                         </form>
+                        <div class="text-center pt-4">
+                            <h5>Danger Zone</h5>
+                            @if (Model.IsBaned)
+                            {
+                                <a asp-controller="Admin" asp-action="BanUser" asp-route-id="@Model.Id" class="btn btn-success my-4 mb-2" style="width: 100%;">Unban User</a>
+                            }
+                            else
+                            {
+                                <a asp-controller="Admin" asp-action="BanUser" asp-route-id="@Model.Id" class="btn btn-warning my-4 mb-2" style="width: 100%;">Ban User</a>
+                            }
+                            <a asp-controller="Admin" asp-action="DeleteUser" asp-route-id="@Model.Id" class="btn btn-danger my-4 mb-2" style="width: 100%;">Delete User</a>
+                        </div>
                     </div>
                 </div>
             </div>

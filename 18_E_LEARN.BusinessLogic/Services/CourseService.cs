@@ -42,7 +42,6 @@ namespace _18_E_LEARN.BusinessLogic.Services
 
         public async Task<ServiceResponse> Create(AddCourseVM model)
         {
-           
             if(model.Files != null)
             {
                 string webPath = _hostEnvironment.WebRootPath;
@@ -69,6 +68,96 @@ namespace _18_E_LEARN.BusinessLogic.Services
             {
                 Success = true,
                 Message = "Course successfully updated."
+            };
+        }
+
+        public async Task<ServiceResponse> Update(EditCourseVM model)
+        {
+            var course = await _courseRepository.GetByIdAsync(model.Id);
+            if(course == null)
+            {
+                return new ServiceResponse
+                {
+                    Success = false,
+                    Message = "Course not found."
+                };
+            }
+            if (model.Files != null)
+            {
+                string webPath = _hostEnvironment.WebRootPath;
+                var files = model.Files;
+                string upload = webPath + Settings.ImagePath;
+                string fileName = Guid.NewGuid().ToString();
+                string extension = Path.GetExtension(files[0].FileName);
+                if (course.Image != Settings.DefaultCurseImage)
+                {
+                    File.Delete(Path.Combine(upload, course.Image));
+                }
+                using (var fileStream = new FileStream(Path.Combine(upload, fileName + extension), FileMode.Create))
+                {
+                    files[0].CopyTo(fileStream);
+                }
+
+                model.Image = fileName + extension;
+            }
+            else
+            {
+                model.Image = course.Image;
+            }
+
+            var mappedCourse = _mapper.Map<EditCourseVM, Course>(model);
+
+            await _courseRepository.Update(mappedCourse);
+            return new ServiceResponse
+            {
+                Success = true,
+                Message = "Course successfully updated."
+            };
+        }
+
+        public async Task<ServiceResponse> GetCourseByIdAsync(int id)
+        {
+            var course = await _courseRepository.GetByIdAsync(id);
+            if (course == null)
+            {
+                return new ServiceResponse
+                {
+                    Success = false,
+                    Message = "Course not found."
+                };
+            }
+
+            var mappedCourse = _mapper.Map<Course, EditCourseVM>(course);
+            return new ServiceResponse
+            {
+                Success = true,
+                Payload = mappedCourse,
+                Message = "Course loaded."
+            };
+        }
+
+        public async Task<ServiceResponse> DeleteCourseByIdAsync(int id)
+        {
+            var course = await _courseRepository.GetByIdAsync(id);
+            if (course == null)
+            {
+                return new ServiceResponse
+                {
+                    Success = false,
+                    Message = "Course not found."
+                };
+            }
+            if(course.Image != Settings.DefaultCurseImage)
+            {
+                string upload = _hostEnvironment.WebRootPath + Settings.ImagePath;
+                File.Delete(Path.Combine(upload, course.Image));
+            }
+            await _courseRepository.Delete(course);
+
+            return new ServiceResponse
+            {
+                Success = true,
+                Message = "Course deleted."
             };
         }
     }

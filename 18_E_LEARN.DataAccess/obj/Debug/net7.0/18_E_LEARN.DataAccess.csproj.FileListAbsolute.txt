@@ -1,14 +1,14 @@
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.DataAccess\bin\Debug\net7.0\18_E_LEARN.DataAccess.deps.json
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.DataAccess\bin\Debug\net7.0\18_E_LEARN.DataAccess.runtimeconfig.json
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.DataAccess\bin\Debug\net7.0\18_E_LEARN.DataAccess.dll
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.DataAccess\bin\Debug\net7.0\18_E_LEARN.DataAccess.pdb
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.DataAccess\obj\Debug\net7.0\18_E_LEARN.DataAccess.csproj.AssemblyReference.cache
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.DataAccess\obj\Debug\net7.0\18_E_LEARN.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.DataAccess\obj\Debug\net7.0\18_E_LEARN.DataAccess.AssemblyInfoInputs.cache
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.DataAccess\obj\Debug\net7.0\18_E_LEARN.DataAccess.AssemblyInfo.cs
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.DataAccess\obj\Debug\net7.0\18_E_LEARN.DataAccess.csproj.CoreCompileInputs.cache
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.DataAccess\obj\Debug\net7.0\18_E_LEARN.DataAccess.dll
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.DataAccess\obj\Debug\net7.0\refint\18_E_LEARN.DataAccess.dll
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.DataAccess\obj\Debug\net7.0\18_E_LEARN.DataAccess.pdb
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.DataAccess\obj\Debug\net7.0\18_E_LEARN.DataAccess.genruntimeconfig.cache
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.DataAccess\obj\Debug\net7.0\ref\18_E_LEARN.DataAccess.dll
+G:\ASP.NET-Exam-1-master\18_E_LEARN.DataAccess\bin\Debug\net7.0\18_E_LEARN.DataAccess.deps.json
+G:\ASP.NET-Exam-1-master\18_E_LEARN.DataAccess\bin\Debug\net7.0\18_E_LEARN.DataAccess.runtimeconfig.json
+G:\ASP.NET-Exam-1-master\18_E_LEARN.DataAccess\bin\Debug\net7.0\18_E_LEARN.DataAccess.dll
+G:\ASP.NET-Exam-1-master\18_E_LEARN.DataAccess\bin\Debug\net7.0\18_E_LEARN.DataAccess.pdb
+G:\ASP.NET-Exam-1-master\18_E_LEARN.DataAccess\obj\Debug\net7.0\18_E_LEARN.DataAccess.csproj.AssemblyReference.cache
+G:\ASP.NET-Exam-1-master\18_E_LEARN.DataAccess\obj\Debug\net7.0\18_E_LEARN.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+G:\ASP.NET-Exam-1-master\18_E_LEARN.DataAccess\obj\Debug\net7.0\18_E_LEARN.DataAccess.AssemblyInfoInputs.cache
+G:\ASP.NET-Exam-1-master\18_E_LEARN.DataAccess\obj\Debug\net7.0\18_E_LEARN.DataAccess.AssemblyInfo.cs
+G:\ASP.NET-Exam-1-master\18_E_LEARN.DataAccess\obj\Debug\net7.0\18_E_LEARN.DataAccess.csproj.CoreCompileInputs.cache
+G:\ASP.NET-Exam-1-master\18_E_LEARN.DataAccess\obj\Debug\net7.0\18_E_LEARN.DataAccess.dll
+G:\ASP.NET-Exam-1-master\18_E_LEARN.DataAccess\obj\Debug\net7.0\refint\18_E_LEARN.DataAccess.dll
+G:\ASP.NET-Exam-1-master\18_E_LEARN.DataAccess\obj\Debug\net7.0\18_E_LEARN.DataAccess.pdb
+G:\ASP.NET-Exam-1-master\18_E_LEARN.DataAccess\obj\Debug\net7.0\18_E_LEARN.DataAccess.genruntimeconfig.cache
+G:\ASP.NET-Exam-1-master\18_E_LEARN.DataAccess\obj\Debug\net7.0\ref\18_E_LEARN.DataAccess.dll

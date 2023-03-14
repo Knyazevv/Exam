@@ -56,13 +56,13 @@
                                             <span class="text-secondary text-xs font-weight-bold">@item.PhoneNumber</span>
                                         </td>
                                         <td class="align-middle text-center">
-                                            @if (@item.LockoutEnabled)
+                                            @if (@item.IsBaned)
                                             {
-                                                <span class="badge badge-sm bg-gradient-success">False</span>
+                                                <span class="badge badge-sm bg-gradient-warning">True</span>
                                             }
                                             else
                                             {
-                                                <span class="badge badge-sm bg-gradient-warning">True</span>
+                                                <span class="badge badge-sm bg-gradient-success">False</span>
                                             }
                                         </td>
                                         <td class="align-middle">
@@ -72,7 +72,6 @@
                                         </td>
                                     </tr>
                                 }
-
                             </tbody>
                         </table>
                     </div>

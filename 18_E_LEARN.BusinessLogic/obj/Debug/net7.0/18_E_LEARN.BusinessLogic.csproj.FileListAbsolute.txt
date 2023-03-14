@@ -1,15 +1,15 @@
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.BusinessLogic\bin\Debug\net7.0\18_E_LEARN.BusinessLogic.deps.json
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.BusinessLogic\bin\Debug\net7.0\18_E_LEARN.BusinessLogic.dll
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.BusinessLogic\bin\Debug\net7.0\18_E_LEARN.BusinessLogic.pdb
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.BusinessLogic\bin\Debug\net7.0\18_E_LEARN.DataAccess.dll
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.BusinessLogic\bin\Debug\net7.0\18_E_LEARN.DataAccess.pdb
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.BusinessLogic\obj\Debug\net7.0\18_E_LEARN.BusinessLogic.csproj.AssemblyReference.cache
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.BusinessLogic\obj\Debug\net7.0\18_E_LEARN.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.BusinessLogic\obj\Debug\net7.0\18_E_LEARN.BusinessLogic.AssemblyInfoInputs.cache
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.BusinessLogic\obj\Debug\net7.0\18_E_LEARN.BusinessLogic.AssemblyInfo.cs
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.BusinessLogic\obj\Debug\net7.0\18_E_LEARN.BusinessLogic.csproj.CoreCompileInputs.cache
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.BusinessLogic\obj\Debug\net7.0\18_E_LEARN.BusinessLogic.csproj.CopyComplete
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.BusinessLogic\obj\Debug\net7.0\18_E_LEARN.BusinessLogic.dll
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.BusinessLogic\obj\Debug\net7.0\refint\18_E_LEARN.BusinessLogic.dll
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.BusinessLogic\obj\Debug\net7.0\18_E_LEARN.BusinessLogic.pdb
-C:\Users\Dass\OneDrive\Рабочий стол\18_E_LEARN-master\18_E_LEARN.BusinessLogic\obj\Debug\net7.0\ref\18_E_LEARN.BusinessLogic.dll
+G:\ASP.NET-Exam-1-master\18_E_LEARN.BusinessLogic\bin\Debug\net7.0\18_E_LEARN.BusinessLogic.deps.json
+G:\ASP.NET-Exam-1-master\18_E_LEARN.BusinessLogic\bin\Debug\net7.0\18_E_LEARN.BusinessLogic.dll
+G:\ASP.NET-Exam-1-master\18_E_LEARN.BusinessLogic\bin\Debug\net7.0\18_E_LEARN.BusinessLogic.pdb
+G:\ASP.NET-Exam-1-master\18_E_LEARN.BusinessLogic\bin\Debug\net7.0\18_E_LEARN.DataAccess.dll
+G:\ASP.NET-Exam-1-master\18_E_LEARN.BusinessLogic\bin\Debug\net7.0\18_E_LEARN.DataAccess.pdb
+G:\ASP.NET-Exam-1-master\18_E_LEARN.BusinessLogic\obj\Debug\net7.0\18_E_LEARN.BusinessLogic.csproj.AssemblyReference.cache
+G:\ASP.NET-Exam-1-master\18_E_LEARN.BusinessLogic\obj\Debug\net7.0\18_E_LEARN.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+G:\ASP.NET-Exam-1-master\18_E_LEARN.BusinessLogic\obj\Debug\net7.0\18_E_LEARN.BusinessLogic.AssemblyInfoInputs.cache
+G:\ASP.NET-Exam-1-master\18_E_LEARN.BusinessLogic\obj\Debug\net7.0\18_E_LEARN.BusinessLogic.AssemblyInfo.cs
+G:\ASP.NET-Exam-1-master\18_E_LEARN.BusinessLogic\obj\Debug\net7.0\18_E_LEARN.BusinessLogic.csproj.CoreCompileInputs.cache
+G:\ASP.NET-Exam-1-master\18_E_LEARN.BusinessLogic\obj\Debug\net7.0\18_E_LEARN.BusinessLogic.csproj.CopyComplete
+G:\ASP.NET-Exam-1-master\18_E_LEARN.BusinessLogic\obj\Debug\net7.0\18_E_LEARN.BusinessLogic.dll
+G:\ASP.NET-Exam-1-master\18_E_LEARN.BusinessLogic\obj\Debug\net7.0\refint\18_E_LEARN.BusinessLogic.dll
+G:\ASP.NET-Exam-1-master\18_E_LEARN.BusinessLogic\obj\Debug\net7.0\18_E_LEARN.BusinessLogic.pdb
+G:\ASP.NET-Exam-1-master\18_E_LEARN.BusinessLogic\obj\Debug\net7.0\ref\18_E_LEARN.BusinessLogic.dll

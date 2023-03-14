@@ -20,13 +20,51 @@ namespace _18_E_LEARN.DataAccess.Data.Repository
                 await _context.SaveChangesAsync();
             }
         }
+        public async Task Update(Course model)
+        {
+            using (var _context = new AppDbContext())
+            {
+                _context.Courses.Update(model);
+                await _context.SaveChangesAsync();
+            }
+        }
+        public async Task Delete(Course model)
+        {
+            using (var _context = new AppDbContext())
+            {
+                _context.Courses.Remove(model);
+                await _context.SaveChangesAsync();
+            }
+        }
 
         public async Task<IEnumerable<Course>> GetAllAsync()
         {
-            using(var _context = new AppDbContext())
+            using (var _context = new AppDbContext())
             {
                 IEnumerable<Course> courses = await _context.Courses.ToListAsync();
+                foreach (var course in courses)
+                {
+                    course.CategoryName = await _context.Categories.Where(c => c.Id == course.CategoryId).Select(c => c.Name).FirstOrDefaultAsync();
+                }
                 return courses;
+            }
+        }
+
+        public async Task<Course?> GetByName(string name)
+        {
+            using (var _context = new AppDbContext())
+            {
+                var course = await _context.Courses.Where(c => c.Name == name).FirstOrDefaultAsync();
+                return course;
+            }
+        }
+
+        public async Task<Course?> GetByIdAsync(int id)
+        {
+            using (var _context = new AppDbContext())
+            {
+                var course = await _context.Courses.Where(c => c.Id == id).FirstOrDefaultAsync();
+                return course;
             }
         }
     }
