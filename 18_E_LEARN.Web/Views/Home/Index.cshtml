@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@using _18_E_LEARN.DataAccess.Data.Models.Courses;
+@model IEnumerable<Course>
+
+
+@*<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+</div>
+*@
+
+
+@*список*@
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-4 col-xs-6 color-1">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+
+        @*картки*@
+        <div class="col-md-3 col-sm-4 col-xs-6 color-2">
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://planbphoto.com/wp-content/uploads/Serze.jpg" class="avatar avatar-sm me-3" alt="user1">
+                <div class="card-body">
+                    <h5 class="card-title">Name</h5>
+                    <p class="card-text">Information.</p>
+                    <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</div>

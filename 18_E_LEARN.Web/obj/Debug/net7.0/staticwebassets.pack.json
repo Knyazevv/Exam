@@ -1,0 +1,693 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\18_E_LEARN.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\18_E_LEARN.Web.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\css\\nucleo-icons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\nucleo-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\css\\nucleo-svg.css",
+      "PackagePath": "staticwebassets\\assets\\css\\nucleo-svg.css"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\css\\soft-ui-dashboard.css",
+      "PackagePath": "staticwebassets\\assets\\css\\soft-ui-dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\css\\soft-ui-dashboard.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\soft-ui-dashboard.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\css\\soft-ui-dashboard.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\soft-ui-dashboard.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\fonts\\nucleo-icons.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\fonts\\nucleo-icons.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\fonts\\nucleo-icons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\fonts\\nucleo-icons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\fonts\\nucleo-icons.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\fonts\\nucleo.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\fonts\\nucleo.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\fonts\\nucleo.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.woff"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\fonts\\nucleo.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\apple-icon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\apple-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\bg1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\bruce-mars.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bruce-mars.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\curved-images\\curved-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\curved-images\\curved-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\curved-images\\curved-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\curved-images\\curved-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\curved-images\\curved0.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\curved-images\\curved1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\curved-images\\curved10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\curved-images\\curved11-small.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved11-small.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\curved-images\\curved11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\curved-images\\curved12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\curved-images\\curved13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\curved-images\\curved14.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\curved-images\\curved19.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\curved-images\\curved2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\curved-images\\curved21.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\curved-images\\curved3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\curved-images\\curved4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\curved-images\\curved5-small.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved5-small.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\curved-images\\curved5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\curved-images\\curved6-small.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved6-small.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\curved-images\\curved6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\curved-images\\curved7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\curved-images\\curved8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\curved-images\\curved9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\curved9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\curved-images\\white-curved.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\curved-images\\white-curved.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\down-arrow-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\down-arrow-dark.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\down-arrow-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\down-arrow-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\down-arrow.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\down-arrow.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\home-decor-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\home-decor-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\home-decor-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\home-decor-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\home-decor-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\home-decor-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\illustrations\\rocket-dark.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\rocket-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\illustrations\\rocket-white.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\rocket-white.png"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\ivana-square.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\ivana-square.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\ivancik.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\ivancik.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\kal-visuals-square.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\kal-visuals-square.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\logo-ct-dark.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-ct-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\logo-ct.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-ct.png"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\logos\\mastercard.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\mastercard.png"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\logos\\visa.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\visa.png"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\marie.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\marie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\shapes\\pattern-lines.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\pattern-lines.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\shapes\\shape-1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\shape-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\shapes\\shape-2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\shape-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\shapes\\shape-3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\shape-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\shapes\\wave-down.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\wave-down.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\shapes\\wave-up.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\wave-up.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\shapes\\waves-gray.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\waves-gray.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\shapes\\waves-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\shapes\\waves-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\small-logos\\icon-sun-cloud.png",
+      "PackagePath": "staticwebassets\\assets\\img\\small-logos\\icon-sun-cloud.png"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\small-logos\\logo-atlassian.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-atlassian.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\small-logos\\logo-invision.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-invision.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\small-logos\\logo-jira.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-jira.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\small-logos\\logo-slack.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-slack.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\small-logos\\logo-spotify.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-spotify.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\small-logos\\logo-webdev.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-webdev.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\small-logos\\logo-xd.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-xd.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\team-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\theme\\angular.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\angular.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\theme\\bootstrap.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\bootstrap.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\theme\\dribbble.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\dribbble.png"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\theme\\dropbox.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\dropbox.png"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\theme\\mastercard.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\mastercard.png"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\theme\\paypal.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\paypal.png"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\theme\\react.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\react.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\theme\\sketch.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\sketch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\theme\\slack.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\slack.png"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\theme\\spotify.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\spotify.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\theme\\tim.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\tim.png"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\theme\\unass.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\unass.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\theme\\visa.png",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\visa.png"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\theme\\vue.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\theme\\vue.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\img\\vr-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\vr-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\js\\core\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\core\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\js\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\js\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\core\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\js\\plugins\\Chart.extension.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\Chart.extension.js"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\js\\plugins\\bootstrap-notify.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\bootstrap-notify.js"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\js\\plugins\\chartjs.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\chartjs.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\js\\plugins\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\js\\plugins\\smooth-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\smooth-scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\js\\soft-ui-dashboard.js",
+      "PackagePath": "staticwebassets\\assets\\js\\soft-ui-dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\js\\soft-ui-dashboard.js.map",
+      "PackagePath": "staticwebassets\\assets\\js\\soft-ui-dashboard.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\assets\\js\\soft-ui-dashboard.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\soft-ui-dashboard.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\images\\courses\\770a4beb-7e0c-4a23-8b43-c181827bae1e.png",
+      "PackagePath": "staticwebassets\\images\\courses\\770a4beb-7e0c-4a23-8b43-c181827bae1e.png"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\images\\courses\\f48c4620-7dfa-4b47-90e9-f22bcfc3a107.jpg",
+      "PackagePath": "staticwebassets\\images\\courses\\f48c4620-7dfa-4b47-90e9-f22bcfc3a107.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dass\\OneDrive\\Рабочий стол\\18_E_LEARN-master\\18_E_LEARN.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.18_E_LEARN.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.18_E_LEARN.Web.props",
+      "PackagePath": "build\\18_E_LEARN.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.18_E_LEARN.Web.props",
+      "PackagePath": "buildMultiTargeting\\18_E_LEARN.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.18_E_LEARN.Web.props",
+      "PackagePath": "buildTransitive\\18_E_LEARN.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
